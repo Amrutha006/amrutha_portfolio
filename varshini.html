@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amrutha</title>
+ 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+      
+    }
+
+    *{
+Font-family:"lora",serif;
+}
+
+    body {
+      background: linear-gradient(135deg, #f8f9fa, #e0e0e0);
+      color: #333;
+      padding-top: 80px;
+    }
+
+    header {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      background-color: #8e44ad;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 50px;
+      z-index: 1000;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    nav {
+      display: flex;
+      gap: 25px;
+    }
+
+    nav a {
+      color: #fbd9ff;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 15px;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 30px;
+    }
+
+    section {
+      margin-bottom: 40px;
+      background: #ffffff;
+      padding: 25px;
+      border-left: 6px solid #8e44ad;
+      border-radius: 10px;
+      box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
+    }
+
+    #home {
+      display: flex;
+      gap: 30px;
+      align-items: center;
+    }
+    #index{
+       text-decoration: none;
+ }
+    .profile-img {
+      width: 200px;
+      height: 200px;
+      border-radius: 10px;
+      object-fit: cover;
+      border: 4px solid #8e44ad;
+    }
+
+    .about-text {
+      font-size: 20px;
+      line-height: 1.7;
+      text-align: center;
+    }
+
+    .project {
+      background: #f3e6f8;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+    }
+
+    .skills ul {
+      list-style: none;
+    }
+
+    .skills li {
+      margin: 10px 0;
+    }
+
+    .skills .bar {
+      background: #ddd;
+      border-radius: 20px;
+      overflow: hidden;
+      margin-top: 5px;
+    }
+
+    .skills .bar span {
+      display: block;
+      height: 10px;
+      background: #8e44ad;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    table, th, td {
+      border: 1px solid #8e44ad;
+      padding: 10px;
+      text-align: left;
+    }
+
+    .achievement p {
+      margin: 8px 0;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 8px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+
+    form button {
+      background-color: #8e44ad;
+      color: white;
+      border: none;
+      padding: 10px 16px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .contact-details a {
+      color: #8e44ad;
+      text-decoration: none;
+    }
+
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      font-size: 30px;
+      margin: 30px 0;
+    }
+
+    .social-icons a {
+      color: #8e44ad;
+      text-decoration: none;
+      transition: transform 0.2s;
+    }
+
+    .social-icons a:hover {
+      transform: scale(1.2);
+      color: #5e3370;
+    }
+
+    footer {
+      background: #8e44ad;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Amrutha</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section id="home">
+      <img src="amrutha.jpeg" alt="Profile" class="profile-img">
+      <div class="about-text">
+        <p>Hello! I'm <strong>Amrutha</strong>, an ECE student with a passion for learning and growing in the tech world. I'm curious, consistent, and always open to new experiences.</p>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project">
+        <strong>Phase Detector</strong><br>Detects the flow of current.
+      </div>
+      <div class="project">
+        <strong>Portable Napkin Incinerator</strong><br>Safe & non-electric disposal for hygiene.
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>Java
+          <div class="bar"><span style="width: 70%"></span></div>
+        </li>
+        <li>Problem Solving
+          <div class="bar"><span style="width: 75%"></span></div>
+        </li>
+        <li>Team Collaboration
+          <div class="bar"><span style="width: 85%"></span></div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <table>
+        <tr>
+          <th>Qualification</th>
+          <th>Institution</th>
+          <th>Years</th>
+        </tr>
+        <tr>
+          <td>B.E. ECE</td>
+          <td>KPR Institute of Engineering and Technology</td>
+          <td>2023 – 2027</td>
+        </tr>
+        <tr>
+          <td>HSC</td>
+          <td>Little Flower Convent Matriculation Higher Secondary School</td>
+          <td>2022 – 2023</td>
+        </tr>
+        <tr>
+          <td>SSLC</td>
+          <td>Little Flower Convent Matriculation Higher Secondary School</td>
+          <td>2020 – 2021</td>
+        </tr>
+      </table>
+    </section>
+
+    <section>
+      <h2>Work experiences</h2>
+      <p>Intern at <a href ="https://applifiles.com/" id="index"> APPLIFILES</a></p>
+    </section>
+
+    <section>
+      <h2>programming</h2>
+      <p><br> C(basics), Java(basics), HTML, Arduino</p>
+    </section>
+
+    <section class="certifications & achievement">
+      <h2>Achievements</h2>
+      <ul>
+      <li>Best Innovation – KRIYA'25 Ideathon</li>
+      <li>Runner – KRIYA'25 Hackathon</li>
+      <li>ECE Association Host – Spartanz</li>
+      <li>Introduction to industry 4.0-NPTEL</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form action="#" method="post">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <section class="contact-details">
+      <h2>Contact Info</h2>
+      <div style="font-size: 18px; display: flex; flex-direction: column; gap: 10px;">
+        <a href="mailto:amruthamg2006@gmail.com" target="_blank"><i class="fas fa-envelope"></i> amruthamg2006@gmail.com</a>
+        <a href="https://www.linkedin.com/in/amrutha-varshini-m-9024b4291" target="_blank"><i class="fab fa-linkedin"></i> linkedin.com/in/amrutha-varshini-m</a>
+        <a href="https://github.com/Amrutha006" target="_blank"><i class="fab fa-github"></i> github.com/Amrutha006</a>
+      </div>
+    </section>
+
+
+  <footer>
+    &copy; 2025 Amrutha Varshini | Created with 💜
+  </footer>
+</body>
+</html>
